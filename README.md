@@ -1,7 +1,7 @@
 
 # cs301-F2020-project-starter
 
-![Logo](greenCat_cs301.png)
+![Logo](mimikyu.png)
 
 Designed for use with [GitHub Classroom](https://classroom.github.com/), this repository contains the starter files for the lab of this course.
 
