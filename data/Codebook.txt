@@ -2,7 +2,8 @@ Data taken from Alberto Barradas from the website Kaggle.
 https://www.kaggle.com/abcsds/pokemon
 
 
-This data set includes 721 Pokemon, including their number, name, first and second type, and basic stats: HP, Attack, Defense, Special Attack, Special Defense, and Speed. It has been of great use when teaching statistics to kids. With certain types you can also give a geeky introduction to machine learning.
+This data set includes 721 Pokemon, including their number, name, first and second type, and basic stats: HP, Attack, Defense, Special Attack, Special Defense, and Speed. 
+It has been of great use when teaching statistics to kids. With certain types you can also give a geeky introduction to machine learning.
 
 This are the raw attributes that are used for calculating how much damage an attack will do in the games. This dataset is about the pokemon games (NOT pokemon cards or Pokemon Go).
 
@@ -19,9 +20,13 @@ Defense: the base damage resistance against normal attacks
 SP Atk: special attack, the base modifier for special attacks (e.g. fire blast, bubble beam)
 SP Def: the base damage resistance against special attacks
 Speed: determines which pokemon attacks first each round
+
 The data for this table has been acquired from several different sites, including:
 
 pokemon.com
 pokemondb
 bulbapedia
-One question has been answered with this database: The type of a pokemon cannot be inferred only by it's Attack and Deffence. It would be worthy to find which two variables can define the type of a pokemon, if any. Two variables can be plotted in a 2D space, and used as an example for machine learning. This could mean the creation of a visual example any geeky Machine Learning class would love.
+
+One question has been answered with this database: The type of a pokemon cannot be inferred only by it's Attack and Deffence. 
+It would be worthy to find which two variables can define the type of a pokemon, if any. Two variables can be plotted in a 2D space, and used as an example for machine learning. 
+This could mean the creation of a visual example any geeky Machine Learning class would love.
