@@ -60,3 +60,6 @@ pairs.panels(pokemonData)
 
 pairs.panels(legendary)
 pairs.panels(nonLegendary)
+
+pairs.panels(oneType)
+pairs.panels(twoType)
