@@ -1,8 +1,9 @@
 ## Final Project- Folkenroth/Stape: Pokemon Data
 ## Semester: Fall 2020
 
-
+rm(list= ls())
 library(tidyverse)
+library(psych)
 
 ### Read File 
 pokemonFile <- file.choose()
@@ -42,4 +43,20 @@ dark <- pokemonData %>% filter(pokemonData$Type.1 == "Dark" | pokemonData$Type.2
 steel <- pokemonData %>% filter(pokemonData$Type.1 == "Steel" | pokemonData$Type.2 == "Steel")
 fairy <- pokemonData %>% filter(pokemonData$Type.1 == "Fairy" | pokemonData$Type.2 == "Fairy")
 
-#Create Legendary and Non Variables
+## By Multiple Types
+oneType <- pokemonData %>% filter(pokemonData$Type.2 == "")
+twoType <- pokemonData %>% filter(pokemonData$Type.2 != "")
+
+## By Legendary
+
+legendary <- pokemonData %>% filter(pokemonData$Legendary == "True")
+nonLegendary <- pokemonData %>% filter(pokemonData$Legendary == "False")
+
+
+### Tests and Plots
+
+# Pairs Panels
+pairs.panels(pokemonData)
+
+pairs.panels(legendary)
+pairs.panels(nonLegendary)
