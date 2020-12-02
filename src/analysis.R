@@ -22,8 +22,8 @@ gen4 <- pokemonData %>% filter(pokemonData$Generation == 4)
 gen5 <- pokemonData %>% filter(pokemonData$Generation == 5)
 gen6 <- pokemonData %>% filter(pokemonData$Generation == 6)
 
-## By Types
 
+## By Types
 normal <- pokemonData %>% filter(pokemonData$Type.1 == "Normal" | pokemonData$Type.2 =="Normal")
 fire <- pokemonData %>% filter(pokemonData$Type.1 == "Fire" | pokemonData$Type.2 == "Fire")
 water <- pokemonData %>% filter(pokemonData$Type.1 == "Water" | pokemonData$Type.2 == "Water")
@@ -43,14 +43,16 @@ dark <- pokemonData %>% filter(pokemonData$Type.1 == "Dark" | pokemonData$Type.2
 steel <- pokemonData %>% filter(pokemonData$Type.1 == "Steel" | pokemonData$Type.2 == "Steel")
 fairy <- pokemonData %>% filter(pokemonData$Type.1 == "Fairy" | pokemonData$Type.2 == "Fairy")
 
+
 ## By Multiple Types
 oneType <- pokemonData %>% filter(pokemonData$Type.2 == "")
 twoType <- pokemonData %>% filter(pokemonData$Type.2 != "")
 
-## By Legendary
 
+## By Legendary
 legendary <- pokemonData %>% filter(pokemonData$Legendary == "True")
 nonLegendary <- pokemonData %>% filter(pokemonData$Legendary == "False")
+
 
 
 ### Tests and Plots
