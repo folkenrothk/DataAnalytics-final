@@ -65,3 +65,9 @@ pairs.panels(nonLegendary)
 
 pairs.panels(oneType)
 pairs.panels(twoType)
+
+
+# Facet Plots
+ggplot(data = pokemonData) + geom_point(mapping = aes(x = pokemonData$Total, y = pokemonData$Sp..Atk)) + facet_grid(. ~ Generation)
+
+ggplot(data = pokemonData) + geom_point(mapping = aes(x = pokemonData$Total, y = pokemonData$Sp..Atk)) + facet_grid(. ~ Type.1)
