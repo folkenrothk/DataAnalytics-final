@@ -13,7 +13,7 @@ pokemonData <- read.csv(pokemonFile)
 View(pokemonData)
 
 
-### Create Variables 
+### Create Variables (to potentially use)
 ## By Generations
 gen1 <- pokemonData %>% filter(pokemonData$Generation == 1)
 gen2 <- pokemonData %>% filter(pokemonData$Generation == 2)
@@ -24,30 +24,17 @@ gen6 <- pokemonData %>% filter(pokemonData$Generation == 6)
 
 
 ## By Types
-normal <- pokemonData %>% filter(pokemonData$Type.1 == "Normal" | pokemonData$Type.2 =="Normal")
-fire <- pokemonData %>% filter(pokemonData$Type.1 == "Fire" | pokemonData$Type.2 == "Fire")
-water <- pokemonData %>% filter(pokemonData$Type.1 == "Water" | pokemonData$Type.2 == "Water")
-electric <- pokemonData %>% filter(pokemonData$Type.1 == "Electric" | pokemonData$Type.2 == "Electric")
-grass <- pokemonData %>% filter(pokemonData$Type.1 == "Grass" | pokemonData$Type.2 == "Grass")
-ice <- pokemonData %>% filter(pokemonData$Type.1 == "Ice" | pokemonData$Type.2 == "Ice")
-fighting <- pokemonData %>% filter(pokemonData$Type.1 == "Fighting" | pokemonData$Type.2 == "Fighting")
-posion <- pokemonData %>% filter(pokemonData$Type.1 == "Poison" | pokemonData$Type.2 == "Posion")
-ground <- pokemonData %>% filter(pokemonData$Type.1 == "Ground" | pokemonData$Type.2 == "Ground")
-flying <- pokemonData %>% filter(pokemonData$Type.1 == "Flying" | pokemonData$Type.2 == "Flying")
-psychic <- pokemonData %>% filter(pokemonData$Type.1 == "Psychic" | pokemonData$Type.2 == "Psychic")
-bug <- pokemonData %>% filter(pokemonData$Type.1 == "Bug" | pokemonData$Type.2 == "Bug")
-rock <- pokemonData %>% filter(pokemonData$Type.1 == "Rock" | pokemonData$Type.2 == "Rock")
 ghost <- pokemonData %>% filter(pokemonData$Type.1 == "Ghost" | pokemonData$Type.2 == "Ghost")
-dragon <- pokemonData %>% filter(pokemonData$Type.1 == "Dragon" | pokemonData$Type.2 == "Dragon")
-dark <- pokemonData %>% filter(pokemonData$Type.1 == "Dark" | pokemonData$Type.2 == "Dark")
-steel <- pokemonData %>% filter(pokemonData$Type.1 == "Steel" | pokemonData$Type.2 == "Steel")
-fairy <- pokemonData %>% filter(pokemonData$Type.1 == "Fairy" | pokemonData$Type.2 == "Fairy")
+fighting <- pokemonData %>% filter(pokemonData$Type.1 == "Fighting" | pokemonData$Type.2 == "Fighting")
 
 
 ## By Multiple Types
-oneType <- pokemonData %>% filter(pokemonData$Type.2 == "")
-twoType <- pokemonData %>% filter(pokemonData$Type.2 != "")
+oneType <- pokemonData %>% filter(pokemonData$Type.2 == "") ## Create data set with pokemon w/ only one type
+twoTypes <- pokemonData %>% filter(pokemonData$Type.2 != "") ## Create data set with pokemon w/ two types
 
+
+multiType <- mutate(pokemonData, pokemonData$Type.2 != "") ## when true == 2 type pokemon
+view(twoType)
 
 ## By Legendary
 legendary <- pokemonData %>% filter(pokemonData$Legendary == "True")
@@ -64,10 +51,36 @@ pairs.panels(legendary)
 pairs.panels(nonLegendary)
 
 pairs.panels(oneType)
-pairs.panels(twoType)
+pairs.panels(twoTypes)
+pairs.panels(multiType)
 
 
 # Facet Plots
 ggplot(data = pokemonData) + geom_point(mapping = aes(x = pokemonData$Total, y = pokemonData$Sp..Atk)) + facet_grid(. ~ Generation)
+ggplot(data = pokemonData) + geom_point(mapping = aes(x = Total, y = Sp..Atk, color = Generation)) 
 
-ggplot(data = pokemonData) + geom_point(mapping = aes(x = pokemonData$Total, y = pokemonData$Sp..Atk)) + facet_grid(. ~ Type.1)
+
+ggplot(data = pokemonData) + geom_point(mapping = aes(x = pokemonData$Total, y = pokemonData$Speed)) + facet_grid(. ~ Generation)
+ggplot(data = pokemonData) + geom_point(mapping = aes(x = Total, y = Speed, color = Generation)) 
+
+
+ggplot(data = pokemonData) + geom_point(mapping = aes(x = Total, y = pokemonData$HP, color = Type.1))
+ggplot(data = pokemonData) + geom_point(mapping = aes(x = Total, y = pokemonData$Attack, color = Type.1))
+ggplot(data = pokemonData) + geom_point(mapping = aes(x = Total, y = pokemonData$Defense, color = Type.1))
+ggplot(data = pokemonData) + geom_point(mapping = aes(x = Total, y = pokemonData$Sp..Atk, color = Type.1))
+ggplot(data = pokemonData) + geom_point(mapping = aes(x = Total, y = pokemonData$Sp..Def, color = Type.1))
+ggplot(data = pokemonData) + geom_point(mapping = aes(x = Total, y = pokemonData$Speed, color = Type.1))
+
+ggplot(data = pokemonData) + geom_point(mapping = aes(x = Total, y = pokemonData$Attack, color = Legendary))
+ggplot(data = pokemonData) + geom_point(mapping = aes(x = Total, y = Sp..Atk, color = Legendary))
+
+ggplot(data = nonLegendary) + geom_point(mapping = aes(x = Total, y = Attack, color = Generation))
+
+
+ggplot(data = pokemonData) + geom_point(mapping = aes(x = Total, y = Type.1, color = Generation))
+ggplot(data = pokemonData) + geom_point(mapping = aes(x = Total, y = Type.1, color = Generation)) + facet_grid(. ~ Type.2)
+ggplot(data = twoType) + geom_point(mapping = aes(x = Total, y = Type.1, color = twoType$`pokemonData$Type.2 != ""`))
+
+pairs.panels(ghost)
+pairs.panels(fighting)
+
