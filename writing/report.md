@@ -1,16 +1,5 @@
-##### Name(s) :
-Your Name
+##### Name(s) : Kate Folkenroth and Noah Stape
 
-##### Date :
-20 Nov 2020
+##### Date : 12/8/20
 
-##### Title :
-Your title
-
-```
-TODO
-```
-
-
-
-(Did you remember to add your name(s) to the top of this document?)
+##### Title : A Study of Pokémon Statistics
