@@ -16,7 +16,15 @@
 
   ![Plot](images/pairspanelData.png)
 
-  Seeing as we are looking to compare
+  Seeing as we are looking to compare many different factors, it makes sense to get a broad overlook of the relationships in the data. The pairs.panel function proves very useful for scenarios like this, so it is the first thing that we looked at. Above is a completely unfiltered pairs.panel of the entire dataset. There are a few correlations that stand out in this data. It makes sense to first look at the correlation between "Sp. Atk" and "Total," as they have the greatest positive correlation in the panel: 0.75. This suggests to us that given a higher special attack, a Pokémon's total stats are also higher. This makes sense, though it is most true for Special attack here. 
+
+  ![Plot](images/
+  ![Plot](images/
+  ![Plot](images/
+  ![Plot](images/
+  ![Plot](images/
+  ![Plot](images/
+  ![Plot](images/
 
 # Conclusion
 
