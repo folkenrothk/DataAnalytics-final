@@ -25,9 +25,12 @@
 
   ![Plot](images/totalVsType-ColorMultipleTypes.png)
 
+  The next plot, displayed above, shows the total stats categorized by type, and colorized by whether or not the Pokémon is dual type. This is an important chart for this study as it displays a clear bias in the balancing of Pokémon. It is fairly clear that there are more dual type Pokémon towards the right side of the chart. Look right of total = 600. There is far more blue than orange, showing that the majority of high-strength Pokémon are dual type. It is clear that this bias exists, so does it effect how the game is balanced? The answer: sort of. Of course there is an unbalanced number of strong dual type and single type Pokémon, but this does not mean that the game is inherently unbalanced. While this single aspect of the game is unbalanced, there are so many other areas of the game that must be considered while making this determination. For instance, there must exist a balance between the strength of each type of Pokémon. Luckily this chart also tells us part of that story. One can see that besides a few outliers and a couple of types that are generally weaker, the Pokémon are fairly balanced. They are only balanced according to the criteria that a balanced game offers the player a large number of viable options. This study only goes into depth on stats, not move sets or type match-ups. We mention this because Pokémon is a complicated game with many aspects that we are not considering in this study.
+
+  ![Plot](images/pairspanelFighting.png)
+  ![Plot](images/pairspanelGhost.png)
+
   
-  ![Plot](images/
-  ![Plot](images/
   ![Plot](images/
   ![Plot](images/
 
