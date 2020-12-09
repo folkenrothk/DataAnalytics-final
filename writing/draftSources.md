@@ -36,6 +36,4 @@ https://link.springer.com/article/10.1007/s11469-019-00164-4
 
 questions:
 
-are there generational trends/power differences?
-are legendary pokemon unfair?
-are there any types that are particularly stronger/weaker than others? What stats are stronger/weaker?
+Is Pokémon balanced?
