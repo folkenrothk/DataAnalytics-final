@@ -37,3 +37,6 @@ https://link.springer.com/article/10.1007/s11469-019-00164-4
 questions:
 
 Is Pokémon balanced?
+
+legendary?
+types?
