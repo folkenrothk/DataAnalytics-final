@@ -14,9 +14,9 @@
 
 # Plots and Analysis
 
-  ![Plot](images\pairspanelData.png)
+  ![Plot](images/pairspanelData.png)
 
-  Seeing as we are looking to compare 
+  Seeing as we are looking to compare
 
 # Conclusion
 
