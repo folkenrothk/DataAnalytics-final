@@ -30,7 +30,9 @@
   ![Plot](images/pairspanelFighting.png)
   ![Plot](images/pairspanelGhost.png)
 
-  
+  The above pairs.panels 
+
+
   ![Plot](images/
   ![Plot](images/
 
