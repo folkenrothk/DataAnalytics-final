@@ -14,7 +14,7 @@
 
 # Plots and Analysis
 
-  ![Plot](images\pairspanelData)
+  ![Plot](images\pairspanelData.png)
 
   Seeing as we are looking to compare 
 
