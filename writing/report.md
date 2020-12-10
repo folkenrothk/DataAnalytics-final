@@ -6,9 +6,9 @@
 
 # Introduction and Question
 
-  As Ash Ketchum says, "I choose you!" (Pokémon the Movie, 2017). For over twenty years, Pokémon is an expansive gaming series from Nintendo in which players act as "Pokémon trainers" that get to catch, choose, and duel with these animalistic creatures called Pokémon. Pokémon is based on the story of Ash Ketchum, a ten year old boy, striving to be the best Pokémon trainer in the world (Buchanan & Burts, 2007) which acts as guide the storyline across the franchise. The first video games were debuted as Pokémon Green and Pokémon Red in Japan in 1996 (Britannica, 2020). By 2020, Pokémon has developed into a full franchise with a card game, merchandise, television shows, and multiple movies. One of it's most trendsetting games has been the mobile app Pokémon Go! which includes features using augmented reality and geocaching. Throughout all the variations of gameplay, the franchise has developed a large fanbase. Many fanatics of Pokémon often strive for the best Pokémon to create an undefeatable team. Things fans consider on this game are the statistics of their Pokémon like their heart points (HP), attack strength, defense strength, type, etc. Some fans also question the possibility to predict Pokémon types based off of a few statistics suggesting specific weak or strong types of Pokémon. Lastly, fans wonder do they truly have to collect  all of the Pokémon. Our research wanted is aimed at these types of questions along with ones about the design of the game, is Pokémon a balanced game?
+  As Ash Ketchum says, "I choose you!" (Yuyama, 2017). For over twenty years, Pokémon is an expansive gaming series from Nintendo in which players act as "Pokémon trainers" that get to catch, choose, and duel with these animalistic creatures called Pokémon. Pokémon is based on the story of Ash Ketchum, a ten year old boy, striving to be the best Pokémon trainer in the world (Buchanan & Burts, 2007) which acts as guide the storyline across the franchise. The first video games were debuted as Pokémon Green and Pokémon Red in Japan in 1996 (Britannica, 2020). By 2020, Pokémon has developed into a full franchise with a card game, merchandise, television shows, and multiple movies ( Assunção, et al., 2017). One of it's most trendsetting games has been the mobile app Pokémon Go! which includes features using augmented reality and geocaching. Throughout all the variations of gameplay, the franchise has developed a large fanbase. Many fanatics of Pokémon often strive for the best Pokémon to create an undefeatable team. Things fans consider on this game are the statistics of their Pokémon like their heart points (HP), attack strength, defense strength, type, etc. Some fans also question the possibility to predict Pokémon types based off of a few statistics suggesting specific weak or strong types of Pokémon. Lastly, fans wonder do they truly have to collect  all of the Pokémon. Our research wanted is aimed at these types of questions along with ones about the design of the game, is Pokémon a balanced game?
 
-  A stable definition of what a balanced game looks like must exist. There are a few different qualities of a balanced game. David Serlin claims that a game "is balanced if a reasonably large number of options available to the player are viable" (balance1). Another quality of a balanced game was stated by Jaime Griesemer who claims that a game should strike a "balance between predictability and randomness"(balance1). There are many other criteria for a balanced game, though for the purpose of brevity, the previously mentioned two will have to suffice. We hope to answer whether or not Pokémon meets the criteria for a balanced game with this study of Pokémon statistics.
+  A stable definition of what a balanced game looks like must exist. There are a few different qualities of a balanced game. David Serlin claims that a game "is balanced if a reasonably large number of options available to the player are viable" (Jaffe, 2013). Another quality of a balanced game was stated by Jaime Griesemer who claims that a game should strike a "balance between predictability and randomness"(Jaffe, 2013). There are many other criteria for a balanced game, though for the purpose of brevity, the previously mentioned two will have to suffice. We hope to answer whether or not Pokémon meets the criteria for a balanced game with this study of Pokémon statistics.
 
   From one of the largest data science sites, Kaggle, we identified a dataset labeled "Pokémon with stats" created by Alberto Barradas. This set included 721 Pokémon with various statistics such as their HP or attack number ranging all the way to generation 6. This dataset will allow us to compare every Pokémon's stats by what type the Pokémon is, which generation the Pokémon was introduced in, and whether or not the Pokémon is classified as a "legendary." A legendary Pokémon is generally more difficult to obtain than a non-legendary, so their stats are typically much higher. We will use these comparisons to decide whether or not Pokémon is balanced based on the previously mentioned criteria.
 
@@ -48,15 +48,16 @@
 
 # Works Cited
 
-balance1:
-https://digital.lib.washington.edu/researchworks/bitstream/handle/1773/22797/Jaffe_washington_0250E_11528.pdf?sequence=1&isAllowed=y
+  Assunção, C., Brown, M., & Workman, R. (2017). Pokémon is Evolving! An investigation into the development of Pokemon community and expectations for the future of the franchise. Press Start, 4(1). doi:https://doaj.org/article/3f3167f1ab374acd82dd1dac54f43a71
 
+  Britannica (2020) Pokemon. Encylcopedia Britannica. doi: https://www.britannica.com/topic/Pokemon-electronic-game
 
----
-intro:
-https://doaj.org/article/3f3167f1ab374acd82dd1dac54f43a71
-Pokemon the Movie //
-https://www.britannica.com/topic/Pokemon-electronic-game
-https://link.springer.com/article/10.3758/s13428-017-0879-5
-https://search.proquest.com/docview/751595575?accountid=8268&pq-origsite=summon
-https://doi.org/10.1016/j.paid.2017.06.024
+  Buchanan, T. K., & Burts, D. C. (2007). Using children's created cultures: Culturally appropriate practice in the primary grades. Early Childhood Education Journal, 34(5), 329-336. doi:http://dx.doi.org/10.1007/s10643-006-0131-x
+
+  Jaffe, A. (2013). Understanding Game Balance with Quantitative Methods. University of Washington. doi:https://digital.lib.washington.edu/researchworks/bitstream/handle/1773/22797/Jaffe_washington_0250E_11528.pdf?sequence=1&isAllowed=y
+
+  Okada, K., Vandekerchkove, J., & Lee, M. D. (2018). Modeling when people quit: Bayesian censored geometric models with hierarchical and latent-mixture extensions. Behavior Research Methods, 50, 406-415. doi: https://link.springer.com/article/10.3758/s13428-017-0879-5
+
+  Yuyama, K. (Director). (2017). Pokémon the Movie: I Choose You! [Motion picture]. Japan: OLM and Wit Studio.
+
+  Zsila, Á., Orosz, G., Bőthe,  B., Tóth-Király, I., Király, O., Griffith, M., & Demetrovics, Z. (2018) An empirical study on the motivations underlying augmented reality games: The case of Pokémon Go during and after Pokémon fever. 133, 56-66. doi:https://doi.org/10.1016/j.paid.2017.06.024.
