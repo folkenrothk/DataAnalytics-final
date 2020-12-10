@@ -1,13 +1,12 @@
 ## Sources
 
-1. Pokémon is Evolving! An investigation into the development of the Pokémon community and expectations for the future of the franchise
-https://doaj.org/article/3f3167f1ab374acd82dd1dac54f43a71
-
 2. Using Children's Created Cultures: Culturally Appropriate Practice in the Primary Grades
 https://search.proquest.com/docview/751595575?accountid=8268&pq-origsite=summon
 
-3. Modeling when people quit: Bayesian censored geometric models with hierarchical and latent-mixture extensions
-https://link.springer.com/article/10.3758/s13428-017-0879-5
+This culture was born of consumerism (a problematic described by Cook, 2001;Giroux, 1997; Levin, 2003; Steinberg & Kincheloe,
+1997), and while anyone who has played the game
+330 Buchanan and Burts would probably refrain from using the term ,violent’ or ,aggressive’ to describe the actual play that occurs
+in the card or video games (see NAEYC, 1990; Peters & Blumberg, 2002), the game does involve a disturbing reliance on ,battles’ to accomplish goals
 
 4. Augmented reality, augmented ethics: who has the right to augment a particular physical space?
 https://search.proquest.com/docview/2115925148?pq-origsite=summon&accountid=8268
