@@ -38,11 +38,11 @@
 
   ![Plot](images/totalVsSpecialAttack-ColorLegendary.png)
 
-  
+  The above plot displays every Pokémon's total stat vs special attack, while also isolating legendary Pokémon. The most interesting part of this plot is that the legendary Pokémon are separated from the rest. This shows us the significant statistical advantage that many legendary Pokémon have. One could theoretically create a team of only legendary Pokémon that would easily wipe the floor with regular Pokémon. This is perhaps the greatest imbalance we found when looking at this data. There are in game mechanisms built in to stop this from being the easiest route, however. Legendary Pokémon are notoriously difficult to catch in every Pokémon game. One generally only has a single chance to catch these legendary Pokémon before they disappear. This does not stop some people from running a team of only legendary Pokémon, though I am sure that it stops many from fully committing to the all-legendary lifestyle. Despite the gameplay mechanics that attempt to curb this, it is still the greatest imbalance we have found while looking into this data.
 
 # Conclusion
 
-  From all of our data, we have reached the conclusion that there are some correlations. Using this data in practice, players will still need to create teams with all kinds and levels of Pokémon to be successful. As from their iconic tagline and our data also shows that players really "Gotta catch 'em all."
+  We have reached the conclusion that while legendary Pokémon throw the game's balance out of order a bit, the game is mostly balanced according to the criteria we used. Using this data in practice, players will still need to create teams with all kinds and levels of Pokémon to be successful. Our data shows that players really "Gotta catch 'em all."
 
 # Works Cited
 
